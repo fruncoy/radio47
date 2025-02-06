@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* Add styles for the groove border effect */
+.border-groove {
+  border-style: groove;
+}
+/* Hide scrollbar but maintain functionality */
+.overflow-y-auto {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.overflow-y-auto::-webkit-scrollbar {
+  display: none;
+}
+/* Add radial gradient for concave effect */
+.concave-effect {
+  background: radial-gradient(circle at center, #182d7e, #1E3EA1);
+}
